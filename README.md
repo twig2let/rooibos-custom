@@ -6,9 +6,8 @@ RooibosV5 still doesn't have a means of integrating with CI via a socket. This c
 
 ## How to Use
 
-1. Add `rooibos-roku` to your `package.json` and run `npm install`,
-
-    `"rooibos-roku": "@sky-uk/roku-rooibos-custom",`
+1. Add the following module to your `package.json` and run `npm install`,
+    `"@sky-uk/rooibos-custom": "1.0.0",`
 2. Create a test Main.brs for running Rooibos V5 tests with the following,
 
 (Test)Main.brs
